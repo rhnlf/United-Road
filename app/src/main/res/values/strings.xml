@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">United Road</string>
+    <string name="raihan_alif_nurdianto">Raihan Alif Nurdianto</string>
+    <string name="alif_satoe_gmail_com">alif.satoe@gmail.com</string>
+    <string name="name">Name</string>
+    <string name="position">Position</string>
+    <string name="nationality">Nationality</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="biography">Biography</string>
+    <string name="detail">Detail</string>
+    <string name="splash_screen">Splash Screen</string>
+</resources>
