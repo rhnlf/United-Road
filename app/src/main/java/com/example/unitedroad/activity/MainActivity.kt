@@ -1,33 +1,34 @@
 package com.example.unitedroad.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.unitedroad.model.Player
+import com.example.unitedroad.R
 import com.example.unitedroad.adapter.PlayerAdapter
 import com.example.unitedroad.data.PlayerData
-import com.example.unitedroad.R
+import com.example.unitedroad.databinding.ActivityMainBinding
+import com.example.unitedroad.model.Player
 
 class MainActivity : AppCompatActivity() {
     private var list: ArrayList<Player> = arrayListOf()
-    private lateinit var rvPlayer: RecyclerView
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
-        rvPlayer = findViewById(R.id.rv_player)
-        rvPlayer.setHasFixedSize(true)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
+        val layoutManager = LinearLayoutManager(this)
+        binding.apply {
+            rvPlayer.layoutManager = layoutManager
+            rvPlayer.setHasFixedSize(true)
+            rvPlayer.adapter = PlayerAdapter(list)
+        }
         list.addAll(PlayerData.listData)
-        rvPlayer.layoutManager = LinearLayoutManager(this)
-        val listPlayerAdapter = PlayerAdapter(list)
-        rvPlayer.adapter = listPlayerAdapter
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

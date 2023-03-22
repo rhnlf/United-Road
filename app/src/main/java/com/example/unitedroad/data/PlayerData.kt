@@ -1,6 +1,5 @@
 package com.example.unitedroad.data
 
-import com.example.unitedroad.R
 import com.example.unitedroad.model.Player
 
 object PlayerData {
@@ -29,7 +28,7 @@ object PlayerData {
                     "Determined to bounce back, he was soon reaching peak form again once 2021/22 got under way. Three successive Player of the Month awards at the club were testament to his quality and consistency, and this was followed by being named the Premier League Player of the Month for January. He was the first keeper since Southampton's Fraser Forster in 2016 to earn the trophy.\n" +
                     "\n" +
                     "De Gea remained a consistent performer for the rest of the season, culminating in the Spaniard being voted United's Player's Player of the Year by his team-mates, winning the award for a record fourth time.",
-            R.drawable.degea
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111858/Player_Profile_Thumbnail_Mens_2223_Kit_DDG1658217243574_thumb.jpg"
         ),
         arrayOf(
             "Tom Heaton",
@@ -59,7 +58,7 @@ object PlayerData {
                     "Heaton made his first-team debut in December 2021, in a Champions League group-stage game against Young Boys of Bern. He replaced Dean Henderson in the 68th minute, ending a 20-year wait for a senior Manchester United appearance.\n" +
                     "\n" +
                     "The goalkeeper continued to battle with Henderson and David de Gea for the remainder of the season, as part of our talented goalkeeper's union.",
-            R.drawable.heaton
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/41/1190337/PlayerProfile_Thumbnail_TOM_HEATON1675364114076_thumb.jpg"
         ),
         arrayOf(
             "Jack Butland",
@@ -77,7 +76,7 @@ object PlayerData {
                     "A deal was struck with Stoke City where he would remain at St Andrew's, on loan, before similar spells with Barnsley, Leeds United and Derby County, furthering his education all the time. Upon his return to Stoke, he was voted Player of the Season in 2018/19 before being snapped up by Palace a year later.\n" +
                     "\n" +
                     "Following Martin Dubravka's recall to Newcastle United, Erik ten Hag moved for Butland in January 2023.",
-            R.drawable.butland
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/5/1180956/JB_PlayerProfile_Thumbnail1673006801511_thumb.jpg"
         ),
         arrayOf(
             "Victor Lindelof",
@@ -107,7 +106,7 @@ object PlayerData {
                     "Lindelof's stature grew even further in the 2021/22 season, as became a trusted partner for both Harry Maguire and Raphael Varane. The Swede regularly demonstrated his composure on the ball and coupled that with stern defensive resilience to become a valuable asset for Ole Gunnar Solskjaer and interim manager Ralf Rangnick.\n" +
                     "\n" +
                     "Our Swedish centre-back made 35 appearances in all competitions in 2021/22, producing impressive performances away from home against the likes of Villareal and Spurs. He even started at right-back when we visited Atletico Madrid in the Champions League, and showed his versatility by putting in a competent display.",
-            R.drawable.lindelof
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/41/1190338/PlayerProfile_Thumbnail_VICTOR_LINDELOF1675365410253_thumb.jpg"
         ),
         arrayOf(
             "Phil Jones",
@@ -133,9 +132,8 @@ object PlayerData {
                     "By the end of the season, Phil had penned a new long-term contract, much to the delight of his manager. \"Phil knows what it takes to be a Manchester United player,\" noted Solskjaer. \"He has won the Premier League, FA Cup and Europa League and is one of the senior players within the team.\"\n" +
                     "\n" +
                     "After almost two years on the sidelines with injury, Jones made his return to the United first-team on 3 January 2022, when the Reds hosted Wolverhampton Wanderers at Old Trafford. Our centre-back featured a further three times in the Premier League and once in the FA Cup before the end of the season.",
-            R.drawable.jones
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111863/Player_Profile_Thumbnail_Mens_2223_Kit_Jones1658219480831_thumb.jpg"
         ),
-
         arrayOf(
             "Harry Maguire",
             "Defender",
@@ -176,7 +174,7 @@ object PlayerData {
                     "Despite suffering some niggling injuries throughout the season, Maguire racked up 37 appearances for United in 2021/22. Trusted by Solskjaer - and then interim manager Ralf Rangnick - Harry made 35 starts in what ended up being a disappointing season for the Reds as we finished sixth in the Premier League.\n" +
                     "\n" +
                     "Maguire contributed to some of our most crucial victories of the season, such as his strong defensive display in our 1-0 win over West Ham. The skipper also got on the scoresheet twice in 2021/22, slotting home a Champions League goal against Atalanta and powering in a header away to Leeds in the Premier League.",
-            R.drawable.maguire
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111864/Player_Profile_Thumbnail_Mens_2223_Kit_Maguire1658218520747_thumb.jpg"
         ),
         arrayOf(
             "Lisandro Martinez",
@@ -204,7 +202,7 @@ object PlayerData {
                     "The Argentine followed this up with a sparkling 2021/22 campaign which culminated in him being awarded with Ajax’s Player of the Year Award as they won the Eredivisie for the second successive time.\n" +
                     "\n" +
                     "Martinez added to his international accolades in the summer of 2022, as he was part of the Argentina squad won the Finalissima against Italy, before finalising his switch to Old Trafford on 27 July.",
-            R.drawable.martinez
+            "https://assets.manutd.com/AssetPicker/images/0/0/17/3/1114943/LM_Player_Profile_Thumbnail1658929460150_thumb.jpg"
         ),
         arrayOf(
             "Tyrell Malacia",
@@ -226,7 +224,7 @@ object PlayerData {
                     "Since his Netherlands call-up, Malacia has established himself as an Oranje regular, making five appearances.\n" +
                     "\n" +
                     "On 5 July 2022, the defender's move to United was confirmed, making him the first signing under the management of fellow Dutchman Erik ten Hag.",
-            R.drawable.malacia
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/236/1109138/Player_Profile_Thumbnail1657623553340_thumb.jpg"
         ),
         arrayOf(
             "Raphael Varane",
@@ -276,7 +274,7 @@ object PlayerData {
                     "Varane's first season was disrupted by injuries, forcing the centre-back to miss 16 matches in all competitions. However, when he was fit, the Frenchman oozed class.\n" +
                     "\n" +
                     "Varane also managed to notch his first goal for United in his debut season, volleying home from a corner in our comfortable 3-0 win over Brentford in May. After impressing in his first year at Old Trafford, supporters will be eager to see what the Frenchman can do next.",
-            R.drawable.varane
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111870/Player_Profile_Thumbnail_Mens_2223_Kit_Varane1658219563134_thumb.jpg"
         ),
         arrayOf(
             "Diogo Dalot",
@@ -312,7 +310,7 @@ object PlayerData {
                     "After representing his country at the European Championship finals, he had a mission to make his mark at Old Trafford and scored a header in a pre-season friendly win over Everton. Dalot obtained much more game-time following the arrival of interim manager Ralf Rangnick, and that continuity and rhythm led to consistently high performances at right-back.\n" +
                     "\n" +
                     "By the end of 2021/22, Dalot had made 29 appearances in all competitions for the Reds, starting nine of the final 10 Premier League matches of the season. He was also regularly selected in Portugal's squad for international friendlies and Nations League matches.",
-            R.drawable.dalot
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111857/Player_Profile_Thumbnail_Mens_2223_Kit_Dalot1658217740039_thumb.jpg"
         ),
         arrayOf(
             "Luke Shaw",
@@ -340,7 +338,7 @@ object PlayerData {
                     "Following his heroic exploits at the European Championships, Shaw hit the ground running for United in the 2021/22 season. Our left-back started 11 of our first 12 Premier League matches and played a key role in our progression from the Champions League group stage.\n" +
                     "\n" +
                     "However, a string of injuries led to Shaw featuring only 11 more times for the Reds between January and the end of the season, with the England international missing the Premier League run-in.",
-            R.drawable.shaw
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111868/Player_Profile_Thumbnail_Mens_2223_Kit_Shaw1658219271638_thumb.jpg"
         ),
         arrayOf(
             "Aaron Wan-Bissaka",
@@ -374,7 +372,7 @@ object PlayerData {
                     "A determined right-back, he scored his first United goal at Newcastle in October 2020 and went on to make his 100th appearance for the club during the Europa League final defeat to Villarreal.\n" +
                     "\n" +
                     "In 2021/22, Wan-Bissaka made a further 26 appearances for the Reds, starting the first 13 consecutive Premier League matches of the season. Unfortunately, a hand injury and illness halted the right-back's progress and his appearances for the remainder of the season were sporadic.",
-            R.drawable.wanbissaka
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111854/Player_Profile_Thumbnail_Mens_2223_Kit_AWB1658216181011_thumb.jpg"
         ),
         arrayOf(
             "Brandon Williams",
@@ -394,7 +392,7 @@ object PlayerData {
                     "After a strong start to the 2019/20 campaign, during which he skippered the Under-23 side, Brandon was given his senior United debut at Old Trafford in the Carabao Cup tie against Rochdale on 25 September 2019. He managed to work his way into the side and scored his first Premier League goal in the 3-3 draw with Sheffield United in November 2019.\n" +
                     "\n" +
                     "Williams went on loan to Premier League side Norwich City for the 2021/22 season and made 29 appearances for the Canaries in all competitions. Despite Norwich being relegated at the end of the season, Williams was a shining light on the left side of the defence and impressed ahead of his summer return to the Reds.",
-            R.drawable.williams
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/41/1190345/PlayerProfile_Thumbnail_BRANDON_WILLIAMS1675366035020_thumb.jpg"
         ),
         arrayOf(
             "Bruno Fernandes",
@@ -428,7 +426,7 @@ object PlayerData {
                     "In helping the Reds to a second-placed finish, and the Europa League final, Bruno scored 28 goals, overtaking Frank Lampard's record for a midfielder in a single season in the Premier League era. He picked up his second Sir Matt Busby Player of the Year trophy, in front of returning fans at Old Trafford, and also won the club's Goal of the Season prize for a spectacular effort against Everton.\n" +
                     "\n" +
                     "In April 2022, Bruno signed a new long-term contract with club, rewarding his work since his arrival from Sporting. The deal is due to run until 2026, with the option of a further year.",
-            R.drawable.fernandes
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111856/Player_Profile_Thumbnail_Mens_2223_Kit_bruno1658216902778_thumb.jpg"
         ),
         arrayOf(
             "Christian Eriksen",
@@ -462,7 +460,7 @@ object PlayerData {
                     "Having recovered, the Dane resumed his career at Brentford, signing for the club on January transfer deadline-day 2022. His extraordinary comeback to professional football came against Newcastle in February. Eriksen finished the season with 11 appearances, one goal and four assists.\n" +
                     "\n" +
                     "In March 2022, he also achieved his aim of once again playing international football - lining up against the Netherlands and scoring two minutes into his return.",
-            R.drawable.eriksen
+            "https://assets.manutd.com/AssetPicker/images/0/0/17/3/1114946/CE_Player_Profile_Thumbnail1658929110088_thumb.jpg"
         ),
         arrayOf(
             "Marcel Sabitzer",
@@ -488,7 +486,7 @@ object PlayerData {
                     "Marcel has faced United twice in his career, for Leipzig in the 2020/21 Champions League group stage. His side lost 5-0 at Old Trafford but crucially won 3-2 in Germany, where he assisted Angelina's second-minute opener.\n" +
                     "\n" +
                     "Sabitzer had earned 68 caps for Austria, scoring 12 goals, prior to his arrival at United. He made his international debut at the age of 18, in a home game against Romania in June 2012. He has captained his country twice and has appeared in two major international tournaments - Euro 2016 and Euro 2020. In the latter competition, he helped his side to reach the last 16 and take the eventual champions Italy to extra-time at Wembley. Deployed in the no.10 role, the midfielder was on the pitch for the full 120 minutes of the narrow 2-1 defeat.",
-            R.drawable.sabitzer
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/40/1190112/MS_PlayerProfile_Thumbnail1675350621354_thumb.jpg"
         ),
         arrayOf(
             "Fred",
@@ -526,7 +524,7 @@ object PlayerData {
                     "Fred enjoyed arguably his best season in a United shirt in 2021/22. The diligent Brazilian scored four goals and assisted six in a productive year that saw him reach the milestone of 100 Premier League appearances.\n" +
                     "\n" +
                     "The Brazilian scored in his 100th Premier League match to earn the Reds a draw against Leicester, while also netting goals against Crystal Palace and Leeds, and impressing as a more dynamic attacking force. Now clearly at home in Manchester, he will look to push on after finishing third in the Sir Matt Busby Player of the Year vote in 2021/22.",
-            R.drawable.fred
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111860/Player_Profile_Thumbnail_Mens_2223_Kit_Fred1658218416331_thumb.jpg"
         ),
         arrayOf(
             "Casemiro",
@@ -556,7 +554,7 @@ object PlayerData {
                     "He was selected for the 2018 World Cup finals in Russia and was part of the team that achieved success in the 2019 Copa America, by beating Chile 3-1 in Rio.\n" +
                     "\n" +
                     "His move to United was completed on 22 August 2022, and at still only 30, the midfielder's steel and wealth of experience can grace Old Trafford for years to come. If he lays his hand on a fraction of the silverware he claimed while in Spain, United fans everywhere will be more than happy.",
-            R.drawable.casemiro
+            "https://assets.manutd.com/AssetPicker/images/0/0/17/89/1137010/C_Player_Profile_Thumbnail_copy1661414107491_thumb.jpg"
         ),
         arrayOf(
             "Facundo Pellistri",
@@ -583,7 +581,7 @@ object PlayerData {
                     "He was selected to start a key World Cup qualifier against Paraguay and helped his team win 1-0, before enjoying an excellent performance on the right wing in the 4-1 triumph over Venezuela.\n" +
                     "\n" +
                     "The winger made 23 appearances in all competitions for Alaves in 2021/22, with the majority coming from the bench. After featuring in the first 13 matches of the Spanish top-flight season, Pellistri saw fewer minutes in the latter stages of the competition. Despite this, he established himself as a regular for Uruguay and has now made six appearances for his national side and looks the part in the light-blue shirt.",
-            R.drawable.pellistri
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/41/1190346/PlayerProfile_Thumbnail_FACUNDO_PELLISTRI1675366095468_thumb.jpg"
         ),
         arrayOf(
             "Donny van de Beek",
@@ -621,7 +619,7 @@ object PlayerData {
                     "The midfielder only featured for Everton once more before the end of his loan, scoring in the final Premier League match of the season at Arsenal, with the Merseysiders retaining their Premier League status. \n" +
                     "\n" +
                     "The arrival of Erik ten Hag, his former boss in Amsterdam, presents the opportunity of a fresh start for the midfielder in Mancheser.",
-            R.drawable.vandebeek
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/41/1190340/PlayerProfile_DONNY_VAN_DE_BEEK1675365661180_thumb.jpg"
         ),
         arrayOf(
             "Scott McTominay",
@@ -659,7 +657,7 @@ object PlayerData {
                     "The Scot remained a regular throughout 2021/22, missing very few games as he racked up a further 37 appearances for his boyhood club. McTominay was on the scoresheet for the Reds against Burnley in December and scored the winner in our FA Cup third-round win over Aston Villa in January.\n" +
                     "\n" +
                     "The occasional injury ruled the midfielder out of a handful of games, but for the most part, McTominay was a trusted performer for the Reds in 2021/22.",
-            R.drawable.mctominay
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111865/Player_Profile_Thumbnail_Mens_2223_Kit_McTominay1658219784404_thumb.jpg"
         ),
         arrayOf(
             "Zidane Iqbal",
@@ -673,7 +671,7 @@ object PlayerData {
                     "Gaining in experience, the attacking midfielder made a breakthrough in the Under-23s last term, making one start and another outing as a substitute. This was in addition to his regular action with the Under-18s, as he played 14 times and scored five goals.\n" +
                     "\n" +
                     "He opened the scoring in the pre-season friendly at Stalybridge Celtic and will be part of Neil Wood's squad in 2021/22.",
-            R.drawable.iqbal
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/41/1190339/PlayerProfile_Thumbnail_ZIDANE_IQBAL1675365516762_thumb.jpg"
         ),
         arrayOf(
             "Kobbie Mainoo",
@@ -689,7 +687,7 @@ object PlayerData {
                     "He was part of the U17s team that travelled to Dallas, Texas to take part in the Adidas Generation Cup in April 2022 and has gained experience in Premier League 2 and also the EFL Trophy, producing a fine display in the opening 2022 group campaign win at Carlisle United.\n" +
                     "\n" +
                     "After more sterling work for the Under-21s, he was named on the senior bench for the first time when United drew 0-0 with Newcastle on 16 October 2022. He scored in the friendly against Cadiz as part of the winter training camp and, at the tender age of 17, was thrust into the limelight when making his senior bow in the Carabao Cup quarter-final with Charlton Athletic in January 2023.",
-            R.drawable.mainoo
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/41/1190334/PlayerProfile_Thumbnail_KOBBIE_MAINOO1675363536276_thumb.jpg"
         ),
         arrayOf(
             "Anthony Martial",
@@ -719,7 +717,7 @@ object PlayerData {
                     "Injury problems caused the no.9's outings to dwindle further in the first half of 2021/22 and his only goal came in a 1-1 draw with Everton at Old Trafford. After regaining fitness under interim manager Ralf Rangnick, he expressed a desire to play more regular first-team football.\n" +
                     "\n" +
                     "After moving on loan to Spanish club Sevilla in January 2022, Anthony made made 12 appearances across La Liga and the Europa League. Injuries hampered the Frenchman's time in Spain, and he recorded one goal and one assist before returning to Manchester at the end of the season.",
-            R.drawable.martial
+            "https://assets.manutd.com/AssetPicker/images/0/0/17/227/1172436/Martial_PP_Thumbnail1670239308042_thumb.jpg"
         ),
         arrayOf(
             "Marcus Rashford",
@@ -753,7 +751,7 @@ object PlayerData {
                     "Following the Euros, Rashford had surgery on an ongoing shoulder issue, which ruled the winger out for the beginning of the 2021/22 season. The attacker missed the first seven Premier League matches and returned to action with a goal off the bench away to Leicester in October 2021.\n" +
                     "\n" +
                     "Despite not hitting the heights of his previous seasons Rashford was regularly utilised by Ole Gunnar Solskjaer and then by interim manager Ralf Rangnick, making 32 appearances in total across the season. The winger scored in consecutive matches off the bench against Brentford and West Ham in February, but starts became more sporadic for the England international as the season drew to a close.",
-            R.drawable.rashford
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111866/Player_Profile_Thumbnail_Mens_2223_Kit_Rashford1658219368805_thumb.jpg"
         ),
         arrayOf(
             "Antony",
@@ -777,7 +775,7 @@ object PlayerData {
                     "Antony concluded his time in the Dutch capital with 24 goals and 22 assists in 82 appearances and was destined to join Ten Hag on his next venture at Manchester United. \n" +
                     "\n" +
                     "As well as reuniting with his ex-boss, the summer 2022 deadline-day signing found himself among friends at Carrington as the Brazilian linked up with former Ajax team-mate Lisandro Martinez and international colleagues Casemiro and Fred.",
-            R.drawable.antony
+            "https://assets.manutd.com/AssetPicker/images/0/0/17/101/1139991/Antony_thumbnail_grid1662127292333_thumb.jpg"
         ),
         arrayOf(
             "Jadon Sancho",
@@ -807,7 +805,7 @@ object PlayerData {
                     "Jadon's debut season at Old Trafford was mixed, with the winger remaining patient before being handed his first United start, in our 1-0 away win at Wolves on 29 August 2021. Sancho scored his first goal for the Reds in a 1-1 away draw with Chelsea at the end of November, but he didn't score again until February.\n" +
                     "\n" +
                     "However, Jadon's output increased and we then saw his true ability, with the winger recording two goals and three assists across a six-match period. The winger missed the latter stages of the season due to tonsillitis, but finished his debut campaign with the Reds having racked up 38 appearances in all competitions, with five goals and three assists, and the promise of much more to come.",
-            R.drawable.sancho
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/41/1190347/PlayerProfile_Thumbnail_Jadon_Sancho1675366157718_thumb.jpg"
         ),
         arrayOf(
             "Wout Weghorst",
@@ -831,7 +829,7 @@ object PlayerData {
                     "In July 2022, Weghorst joined Besiktas on what was meant to be a season-long loan. It was proving to be a successful spell, as the forward scored nine goals in 18 games.\n" +
                     "\n" +
                     "However, when United showed interest in him during the winter transfer window, his temporary contract in Turkey was terminated and he moved from parent club Burnley to Old Trafford on 13 January 2023, bolstering Erik ten Hag's attacking options for the remainder of the 2022/23 campaign.",
-            R.drawable.weghorst
+            "https://assets.manutd.com/AssetPicker/images/0/0/18/34/1188449/WW_Player_Profile_Thumbnail1674840809341_thumb.jpg"
         ),
         arrayOf(
             "Anthony Elanga",
@@ -855,7 +853,7 @@ object PlayerData {
                     "Elanga scored three goals in all competitions for the Reds in 2021/22, including his first-ever Champions League goal – a brilliant equaliser in the last 16 against Atletico Madrid at the Wanda Metropolitano.\n" +
                     "\n" +
                     "The winger's scintillating club form also earned him a first call-up to the Sweden squad in March 2022, and he followed this up with his first international goal against Norway on 5 June.",
-            R.drawable.elanga
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/247/1111859/Player_Profile_Thumbnail_Mens_2223_Kit_Elanga1658216691991_thumb.jpg"
         ),
         arrayOf(
             "Alejandro Garnacho",
@@ -875,7 +873,7 @@ object PlayerData {
                     "On 28 April 2022, Garnacho made his senior debut for the Reds when he came on as an injury-time substitute, replacing Anthony Elanga, in the 1-1 draw with Chelsea in Premier League.\n" +
                     "\n" +
                     "The following season, on 8 September 2022, the forward made his European bow for United when he joined the field as a second-half substitute during the Reds' Europa League opener against Real Sociedad at Old Trafford.",
-            R.drawable.garnacho
+            "https://assets.manutd.com/AssetPicker/images/0/0/16/225/1106203/Player_Profile_Thumbnail_Mens_Garnacho1656601151379_thumb.jpg"
         ),
     )
 
@@ -884,16 +882,15 @@ object PlayerData {
             val list = arrayListOf<Player>()
             for (data in playerData) {
                 val player = Player()
-                player.name = data[0] as String
-                player.position = data[1] as String
-                player.nationality = data[2] as String
-                player.birthDate = data[3] as String
-                player.biography = data[4] as String
-                player.image = data[5] as Int
+                player.name = data[0]
+                player.position = data[1]
+                player.nationality = data[2]
+                player.birthDate = data[3]
+                player.biography = data[4]
+                player.image = data[5]
 
                 list.add(player)
             }
             return list
         }
-
 }

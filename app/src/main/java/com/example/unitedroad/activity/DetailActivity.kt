@@ -1,14 +1,13 @@
 package com.example.unitedroad.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
-import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.unitedroad.R
+import com.example.unitedroad.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityDetailBinding
 
     companion object {
         const val EXTRA_NAME = "extra_name"
@@ -21,32 +20,28 @@ class DetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail)
+        binding = ActivityDetailBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         title = "Player Detail"
-
-        val tvName: TextView = findViewById(R.id.tv_name)
-        val tvPosition: TextView = findViewById(R.id.tv_position)
-        val tvNationality: TextView = findViewById(R.id.tv_nationality)
-        val tvBirthdate: TextView = findViewById(R.id.tv_birth_date)
-        val tvBiography: TextView = findViewById(R.id.tv_biography)
-        val ivPlayer: ImageView = findViewById(R.id.iv_player)
 
         val name = intent.getStringExtra(EXTRA_NAME)
         val position = intent.getStringExtra(EXTRA_POSITION)
         val nationality = intent.getStringExtra(EXTRA_NATIONALITY)
         val birthdate = intent.getStringExtra(EXTRA_BIRTHDATE)
         val biography = intent.getStringExtra(EXTRA_BIOGRAPHY)
-        val image = intent.getIntExtra(EXTRA_IMAGE, 0)
+        val image = intent.getStringExtra(EXTRA_IMAGE)
 
-        tvName.text = name
-        tvPosition.text = position
-        tvNationality.text = nationality
-        tvBirthdate.text = birthdate
-        tvBiography.text = biography
-        Glide.with(this)
-            .load(image)
-            .apply(RequestOptions())
-            .into(ivPlayer)
+        binding.apply {
+            tvName.text = name
+            tvPosition.text = position
+            tvNationality.text = nationality
+            tvBirthDate.text = birthdate
+            tvBiography.text = biography
+            Glide.with(this@DetailActivity)
+                .load(image)
+                .apply(RequestOptions())
+                .into(ivPlayer)
+        }
     }
 }

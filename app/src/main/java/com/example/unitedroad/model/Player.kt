@@ -6,5 +6,5 @@ data class Player(
     var nationality: String = "",
     var birthDate: String = "",
     var biography: String = "",
-    var image: Int = 0
+    var image: String = "",
 )
